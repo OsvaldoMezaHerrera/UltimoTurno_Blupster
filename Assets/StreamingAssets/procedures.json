@@ -1,0 +1,52 @@
+{
+   "list": [
+      {
+         "idProcedure": "level1",
+         "name": "Procedure 1",
+         "procedureSteps": [
+            {
+               "id": "step1_1",
+               "directionText": "Paso 1: Retirar el seguro del extintor.",
+               "timeLimit": 120
+            },
+            {
+               "id": "step1_2",
+               "directionText": "Paso 2: Apuntar la manguera a la base del fuego.",
+               "timeLimit": 120
+            }
+         ]
+      },
+      {
+         "idProcedure": "level2",
+         "name": "Procedure 2",
+         "procedureSteps": [
+            {
+               "id": "step2_1",
+               "directionText": "Step 2.1: Do something again",
+               "timeLimit": 60
+            },
+            {
+               "id": "step2_2",
+               "directionText": "Step 2.2: Do something else again",
+               "timeLimit": 60
+            }
+         ]
+      },
+      {
+         "idProcedure": "level3",
+         "name": "Procedure 3",
+         "procedureSteps": [
+            {
+               "id": "step3_1",
+               "directionText": "Step 3.1: Do something again",
+               "timeLimit": 30
+            },
+            {
+               "id": "step3_2",
+               "directionText": "Step 3.2: Do something else again",
+               "timeLimit": 30
+            }
+         ]
+      }
+   ]
+}

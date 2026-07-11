@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae2062fed6783447a50a736ff97a758, type: 3}
+  m_Name: SO_DialogueMal
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  npcText: Que mal, hay algo que pueda hacer?
+  tiempoLimite: 5
+  choices:
+  - choiceText: No. pero gracias
+    confianzaChange: 1
+    estresChange: 2
+    puntosChange: 10
+    nextNode: {fileID: 0}
+  - choiceText: "S\xED"
+    confianzaChange: 5
+    estresChange: -1
+    puntosChange: 15
+    nextNode: {fileID: 0}
+  - choiceText: No
+    confianzaChange: -2
+    estresChange: 3
+    puntosChange: 5
+    nextNode: {fileID: 0}

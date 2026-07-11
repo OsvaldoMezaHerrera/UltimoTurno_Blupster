@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae2062fed6783447a50a736ff97a758, type: 3}
+  m_Name: SO_DialogueNode
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  npcText: Hola, como te encuentras?
+  tiempoLimite: 5
+  choices:
+  - choiceText: 'Bien '
+    confianzaChange: 2
+    estresChange: -1
+    puntosChange: 10
+    nextNode: {fileID: 11400000, guid: 203da11a07b5b9bad81beb42bca59ed0, type: 2}
+  - choiceText: Mal
+    confianzaChange: 5
+    estresChange: 5
+    puntosChange: 5
+    nextNode: {fileID: 11400000, guid: f7b0bd09d3068c8f4abbb9a4e80f1b0b, type: 2}
+  - choiceText: Maso
+    confianzaChange: 0
+    estresChange: 0
+    puntosChange: 0
+    nextNode: {fileID: 11400000, guid: 125dbf995bcb61d449b471393b212e46, type: 2}

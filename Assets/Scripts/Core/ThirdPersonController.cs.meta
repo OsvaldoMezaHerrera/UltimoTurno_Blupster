@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d5b37157ef771884aacfecf0484184ec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 196526
+  packageName: Starter Assets - ThirdPerson | Updates in new CharacterController
+    package
+  packageVersion: 1.1.7
+  assetPath: Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs
+  uploadId: 879174
